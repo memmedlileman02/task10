@@ -55,7 +55,7 @@
 
  .success{
     text-align: center;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-RNd4qv4KUEOQphUStWEj073ck-3bBOCdxssGGLmIw&s");
+    background-image: url("https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-1.jpg");
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,7 +181,6 @@ a:hover:before, a:focus:before, a:active:before {
 
 .fail{
     max-width: 80%;
-    /* background-color: aqua; */
     height: 700px;
     margin: 0 auto;
     display: flex;
@@ -190,10 +189,10 @@ a:hover:before, a:focus:before, a:active:before {
 }
 
 .fail1{
-    background-color: pink;
+    background-color: rgb(202, 96, 114);
     height: 340px;
     width: 64.5%;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-RNd4qv4KUEOQphUStWEj073ck-3bBOCdxssGGLmIw&s");
+    background-image: url("https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -263,10 +262,10 @@ a:hover:before, a:focus:before, a:active:before {
 
 
 .header2{
-    background-color: pink;
+    background-color: rgb(202, 96, 114);
     height: 340px;
     width: 34.5%;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-RNd4qv4KUEOQphUStWEj073ck-3bBOCdxssGGLmIw&s");
+    background-image: url("https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -331,10 +330,10 @@ a:hover:before, a:focus:before, a:active:before {
 
 
 .header3{
-    background-color: pink;
+    background-color: rgb(202, 96, 114);
     height: 340px;
     width: 30%;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-RNd4qv4KUEOQphUStWEj073ck-3bBOCdxssGGLmIw&s");
+    background-image: url("https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -372,10 +371,10 @@ a:hover:before, a:focus:before, a:active:before {
 
 
 .header4{
-    background-color: pink;
+    background-color: rgb(202, 96, 114);
     height: 340px;
     width: 25%;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-RNd4qv4KUEOQphUStWEj073ck-3bBOCdxssGGLmIw&s");
+    background-image: url("https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -411,10 +410,10 @@ a:hover:before, a:focus:before, a:active:before {
 }
 
 .header5{
-    background-color: pink;
+    background-color: rgb(202, 96, 114);
     height: 340px;
     width: 43%;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-RNd4qv4KUEOQphUStWEj073ck-3bBOCdxssGGLmIw&s");
+    background-image: url("https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -498,7 +497,9 @@ a:hover:before, a:focus:before, a:active:before {
     line-height: 22px;
 }
 
-
+.pp h2{
+    margin: 50px 50px;
+}
 .sekil{
     max-width: 80%;
     margin: 0 auto;
