@@ -3,6 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 .container{
@@ -272,7 +274,15 @@ a:hover:before, a:focus:before, a:active:before {
     overflow: hidden;
     padding: 15px;
 }
-
+.head2{
+    background-color: white;
+    cursor: pointer;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+}
 .fail2{
     background-color: white;
     cursor: pointer;
@@ -500,6 +510,7 @@ a:hover:before, a:focus:before, a:active:before {
 .pp h2{
     margin: 50px 50px;
 }
+
 .sekil{
     max-width: 80%;
     margin: 0 auto;
@@ -542,7 +553,9 @@ a:hover:before, a:focus:before, a:active:before {
 .ole:hover .clr{
     opacity: 0.9;
 }
-
+.elm2 h1{
+    padding-left: 120px;
+}
 
 
 .access1{
@@ -589,3 +602,85 @@ a:hover:before, a:focus:before, a:active:before {
 .acc:hover img{
     opacity: 0.2;
 }
+.element{
+    background-color: #cdc8c8;
+}
+.brr {
+    padding-bottom: 30px;
+}
+
+
+.foots{
+    background-color: #fff;
+    position: relative;
+}
+.foot p{
+    font-size: 20px;
+    padding: 40px 40px;
+}
+.www{
+    display: inline-block;
+    position: relative;
+}
+.www::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(58, 148, 203);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-out;
+}
+.www:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+ } 
+.icons i{
+    position: absolute;
+    top: 30px;
+    font-size: 40px;
+    left: 50%;
+}
+.son{
+    display: flex;
+    position: absolute;
+    right: 40px ;
+    top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.son ul {
+    display: flex;
+    gap: 40px;
+}
+.son ul li a{
+    font-size: 20px;
+    color: #222222;
+}
+.abcd{
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+.abcd::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #220d96;
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-out;
+}
+.abcd:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+ } 
+ .abcd a:hover{
+    color: blue;
+ }
